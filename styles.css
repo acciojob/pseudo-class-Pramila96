@@ -1,11 +1,15 @@
 /*  your css code here. If applicable */
-div{
-	display:inline;
+
+.para:before {
+content: 'Before Element';
+color: rgb(256, 0, 0);
+font-size: 20px;
+margin-right: 5px;
 }
-p{
-	display:inline;
-}
-.first{
-	color:red;
-	font-size:20px;
+
+.para:after {
+content: 'After Element';
+color: rgb(256, 0, 0);
+font-size: 20px;
+margin-left: 5px;
 }
