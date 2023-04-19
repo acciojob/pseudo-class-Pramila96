@@ -2,7 +2,7 @@
 
 .para:before {
 content: 'Before Element';
-color: rgb(256, 0, 0);
+color: rgb(0, 0, 0);
 font-size: 20px;
 margin-right: 5px;
 }
